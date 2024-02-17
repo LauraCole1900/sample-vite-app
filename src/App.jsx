@@ -9,9 +9,9 @@ function App() {
     <Router basename={`/sample-vite-app`}>
       <MyNav />
       <Routes>
-        <Route path='/portfolio' element={<ProjectGallery />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/404' element={<Custom404 />} />
+        <Route path='portfolio' element={<ProjectGallery />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='404' element={<Custom404 />} />
         <Route path='' element={<Home />} />
       </Routes>
     </Router>
