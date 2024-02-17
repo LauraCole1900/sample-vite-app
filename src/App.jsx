@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   return (
-    <Router basename={`/`}>
+    <Router basename={`/sample-vite-app/`}>
       <MyNav />
       <Routes>
         <Route path='/portfolio' element={<ProjectGallery />} />
